@@ -31,7 +31,7 @@ public class Swagger implements WebMvcConfigurer {
                 .title("Netflix Movie Backend")
                 .description("Unsere Netflix Movie Backend zur Verwaltung von Filmen")
                 .version("0.0.1")
-                .contact(new Contact("Paul Codeur", "", "paul_kamdem@outlook.com"))
+                .contact(new Contact("Jonas Ermert", "", "jonas.ermert@email.de"))
                 .build();
     }
 }

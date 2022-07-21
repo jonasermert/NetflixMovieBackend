@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
-public class MovieApiImpl implements MovieApi{
+public class MovieApiImpl implements com.udemy.movie_backend.netflix.controlleur.MovieApi {
 
     private final MovieService service;
 
